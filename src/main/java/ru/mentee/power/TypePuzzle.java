@@ -53,10 +53,9 @@ public class TypePuzzle {
 
         System.out.println("s1 == s2: " + (s1 == s2));
 
-        System.out.println("\nОбъяснение:");
-        System.out.println("s2 создается через новый объект в памяти → false");
+        System.out.println("Объяснение: s2 создается через новый объект в памяти → false");
 
-        System.out.println("\nПравильное сравнение строк:");
+        System.out.println("Правильное сравнение строк:");
         System.out.println("s1.equals(s2): " + s1.equals(s2));
 
 
